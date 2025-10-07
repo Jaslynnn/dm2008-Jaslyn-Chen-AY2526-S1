@@ -41,7 +41,6 @@ Each activity folder also has a code folder that contains:
   <image src="./01-activities/Week1/1B-Learning-By-Making/1B_RyojiIkedaInspo.png" width="180" ></image>
     - 2 Screen Recordings(Minimum)
 </br>
-  ![1B_RyojiIkedaInspoGif](./Week1/1B-Learning-By-Making/gifs/1B_RyojiIkedaInspoGif.gif)
 </br>
   <video src="./01-activities/Week1/1B-Learning-By-Making/1B_GorgeNeeseScreenRecording.mp4" height="180" controls></video>
   <video src="./01-activities/Week1/1B-Learning-By-Making/1B_GorgeNeeseVer2ScreenRecording.mp4" height="180" controls></video>
