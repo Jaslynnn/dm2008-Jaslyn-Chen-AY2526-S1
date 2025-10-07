@@ -37,8 +37,9 @@ Each activity folder also has a code folder that contains:
     - 3 Still images
 </br>
   <image src="./01-activities/Week1/1B-Learning-By-Making/1B_GorgeNeeseInspo.png" width="180" controls></image>
-  <image src="./01-activities/Week1/1B-Learning-By-Making/1B_GorgeNeeseVer2Inspo.png" width="180" controls ></image>
-  <image src="./01-activities/Week1/1B-Learning-By-Making/1B_RyojiIkedaInspo.png" width="180" controls ></image>
+  <image src="./01-activities/Week1/1B-Learning-By-Making/1B_GorgeNeeseVer2Inspo.png" width="180" controls></image>
+  <image src="./01-activities/Week1/1B-Learning-By-Making/1B_RyojiIkedaInspo.png" width="180" controls></image>
+  
     - 2 Screen Recordings(Minimum)
 </br>
 
