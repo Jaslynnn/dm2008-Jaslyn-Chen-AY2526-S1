@@ -35,15 +35,18 @@ Each activity folder also has a code folder that contains:
 
  - 📂 `1B-Learning-By-Making`
     - 3 Still images
-  </br>
+    </br>
     <image src="./01-activities/Week1/1B-Learning-By-Making/1B_GorgeNeeseInspo.png" width="180" controls></image>
     <image src="./01-activities/Week1/1B-Learning-By-Making/1B_GorgeNeeseVer2Inspo.png" height="180" controls></image>
     <image src="./01-activities/Week1/1B-Learning-By-Making/1B_RyojiIkedaInspo.png" height="180" controls ></image>
 
    - 2 Screen Recordings(Minimum)
-  </br>
-    <a href = "https://github.com/Jaslynnn/dm2008-Jaslyn-Chen-AY2526-S1/blob/main/01-activities/Week1/1B-Learning-By-Making/gifs/1B_GorgeNeeseInspoGif.gif">1B_GorgeNeese Inspired Screen Recording </a>
-   - 
+    </br>
+    <a href = "https://github.com/Jaslynnn/dm2008-Jaslyn-Chen-AY2526-S1/blob/main/01-activities/Week1/1B-Learning-By-Making/gifs/1B_GorgeNeeseInspoGif.gif"> 1B_GorgeNeese Inspired Screen Recording </a>
+     <br>
+     <a href = "https://github.com/Jaslynnn/dm2008-Jaslyn-Chen-AY2526-S1/blob/main/01-activities/Week1/1B-Learning-By-Making/gifs/1B_GorgeNeeseVer2InspoGif.gif"> 1B_GorgeNeese Inspired Screen Ver 2 Recording </a>
+    <br>
+     <a href = "https://github.com/Jaslynnn/dm2008-Jaslyn-Chen-AY2526-S1/blob/main/01-activities/Week1/1B-Learning-By-Making/gifs/1B_RyojiIkedaInspoGif.gif"> 1B_RyojiIkeda Inspired Screen Ver 2 Recording (Digital prison) </a>
 
 ---
 
