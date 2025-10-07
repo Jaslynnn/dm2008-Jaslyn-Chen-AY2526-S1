@@ -35,16 +35,15 @@ Each activity folder also has a code folder that contains:
 
  - 📂 `1B-Learning-By-Making`
     - 3 Still images
-  <image src="./01-activities/Week1/1B-Learning-By-Making/1B_GorgeNeeseInspo.png" width="180" controls></image>
-  <image src="./01-activities/Week1/1B-Learning-By-Making/1B_GorgeNeeseVer2Inspo.png" height="180" controls></image>
-  <image src="./01-activities/Week1/1B-Learning-By-Making/1B_RyojiIkedaInspo.png" height="180" controls ></image>
+  </br>
+   <image src="./01-activities/Week1/1B-Learning-By-Making/1B_GorgeNeeseInspo.png" width="180" controls></image>
+   <image src="./01-activities/Week1/1B-Learning-By-Making/1B_GorgeNeeseVer2Inspo.png" height="180" controls></image>
+   <image src="./01-activities/Week1/1B-Learning-By-Making/1B_RyojiIkedaInspo.png" height="180" controls ></image>
 
     - 2 Screen Recordings(Minimum)
   </br>
-  <video src="./01-activities/Week1/1B-Learning-By-Making/1B_GorgeNeeseScreenRecording.mp4" height="180" controls></video>
-  <video src="./01-activities/Week1/1B-Learning-By-Making/1B_GorgeNeeseVer2ScreenRecording.mp4" height="180" controls></video>
-  <video src="./01-activities/Week1/1B-Learning-By-Making/1B_RyojiIkedaScreenRecording.mp4" height="180" controls></video>
-
+   <video src="./Week1/1B-Learning-By-Making/gifs/1B_RyojiIkedaInspoGif.gif" height="180" controls></video>
+   
 
 ---
 
