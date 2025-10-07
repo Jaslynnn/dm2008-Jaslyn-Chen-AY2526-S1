@@ -42,7 +42,7 @@ Each activity folder also has a code folder that contains:
 
    - 2 Screen Recordings(Minimum)
   </br>
-    <a href = "https://github.com/Jaslynnn/dm2008-Jaslyn-Chen-AY2526-S1/blob/main/01-activities/Week1/1B-Learning-By-Making/gifs/1B_GorgeNeeseInspoGif.gif</a>
+    <a href = "https://github.com/Jaslynnn/dm2008-Jaslyn-Chen-AY2526-S1/blob/main/01-activities/Week1/1B-Learning-By-Making/gifs/1B_GorgeNeeseInspoGif.gif">1B_GorgeNeese Inspired Screen Recording </a>
    - 
 
 ---
