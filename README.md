@@ -28,19 +28,19 @@ Each activity folder also has a code folder that contains:
 
  - 📂 `1A-Simple-Creatures`
     - 2 Still images
-  </br>
+  <br>
     <image src="./01-activities/Week1/1A-Simple-Creatures/PonyResult.png" width="180" controls></image>
     <image src="./01-activities/Week1/1A-Simple-Creatures/PonyCode.png" height="180" controls></image>
 
-
+</br>
  - 📂 `1B-Learning-By-Making`
     - 3 Still images
-  </br>
+  <br>
    <image src="./01-activities/Week1/1B-Learning-By-Making/1B_GorgeNeeseInspo.png" width="180" controls></image>
    <image src="./01-activities/Week1/1B-Learning-By-Making/1B_GorgeNeeseVer2Inspo.png" height="180" controls></image>
    <image src="./01-activities/Week1/1B-Learning-By-Making/1B_RyojiIkedaInspo.png" height="180" controls ></image>
 
-    - 2 Screen Recordings(Minimum)
+   2 Screen Recordings(Minimum)
   </br>
    <video src="./Week1/1B-Learning-By-Making/gifs/1B_RyojiIkedaInspoGif.gif" height="180" controls></video>
    
