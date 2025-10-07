@@ -37,7 +37,7 @@ Each activity folder also has a code folder that contains:
     - 3 Still images
   </br>
     <image src="./01-activities/Week1/1B-Learning-By-Making/1B_GorgeNeeseInspo.png" width="180" controls></image>
-    <https://github.com/Jaslynnn/dm2008-Jaslyn-Chen-AY2526-S1/blob/main/01-activities/Week1/1B-Learning-By-Making/1B_GorgeNeeseInspoScreenRecording.mp4>
+    <a src = "https://github.com/Jaslynnn/dm2008-Jaslyn-Chen-AY2526-S1/blob/main/01-activities/Week1/1B-Learning-By-Making/1B_GorgeNeeseInspoScreenRecording.mp4" >
     <image src="./01-activities/Week1/1B-Learning-By-Making/1B_GorgeNeeseVer2Inspo.png" height="180" controls></image>
     <image src="./01-activities/Week1/1B-Learning-By-Making/1B_RyojiIkedaInspo.png" height="180" controls ></image>
 
