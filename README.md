@@ -10,17 +10,6 @@ This repository contains class exercises, screenshots, recordings and mini proje
 
 ### `📂 01 – Activities `
 
-
-Each activity folder also has a code folder that contains:
-
-- `index.html` — entry point for the exercise
-- `sketch.js` — main p5.js script
-- `assets/` — fonts, images, and sound files (if any)
-- `README.md` — exercise-specific notes
-
-
-
-
 <details> 
 <summary> 
 📂 Week 1
@@ -42,6 +31,8 @@ Each activity folder also has a code folder that contains:
 
    - 2 Screen Recordings(Minimum)
     </br>
+   *↳ Click on links to view the videos/gifs*
+     <br>
     <a href = "https://github.com/Jaslynnn/dm2008-Jaslyn-Chen-AY2526-S1/blob/main/01-activities/Week1/1B-Learning-By-Making/gifs/1B_GorgeNeeseInspoGif.gif"> 1B_GorgeNeese Inspired Screen Recording </a>
      <br>
      <a href = "https://github.com/Jaslynnn/dm2008-Jaslyn-Chen-AY2526-S1/blob/main/01-activities/Week1/1B-Learning-By-Making/gifs/1B_GorgeNeeseVer2InspoGif.gif"> 1B_GorgeNeese Inspired Screen Ver 2 Recording </a>
@@ -64,7 +55,12 @@ Each activity folder also has a code folder that contains:
 
 - 📂 `2A-Mode-Switch`
     - 3 Still images
-    - 1 Screen Recordings
+  <br>
+<image src="./01-activities/Week2/2A-Mode-Switch/FoldingPaper.png" width="180" controls></image>
+      <image src="./01-activities/Week2/2A-Mode-Switch/FoldingPaper3.png" width="180" controls></image>
+      <image src="./01-activities/Week2/2A-Mode-Switch/FoldingPaper2.png" width="180" controls></image>
+
+- 1 Screen Recordings
 - 📂 `2B-Pattern-Making`
     - 3 Still images
     - 1 Screen Recordings`
@@ -121,6 +117,15 @@ Each activity folder also has a code folder that contains:
 
 ---
    </details>
+
+Each activity folder also has a code folder that contains:
+
+- `index.html` — entry point for the exercise
+- `sketch.js` — main p5.js script
+- `assets/` — fonts, images, and sound files (if any)
+- `README.md` — exercise-specific notes
+- and other supporting files
+
 
   </details>
 

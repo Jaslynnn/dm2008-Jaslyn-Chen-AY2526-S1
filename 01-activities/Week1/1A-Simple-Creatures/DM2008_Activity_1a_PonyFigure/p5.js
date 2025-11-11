@@ -34191,7 +34191,7 @@
           c = 0 > c ? 0 : c;
           return a <= c ? 0 === c ? (b + d) / 2 : b + a / (a + c) * (d - b) : d + c / (a + c) * (b - d);
         }
-        ;
+
         function ea(a) {
           var b = B(a.b);
           C(b, a.c);
@@ -34316,14 +34316,14 @@
           d.d = c;
           c.b = d;
         }
-        ;
+
         function ha(a) {
           var b = 0;
           Math.abs(a[1]) > Math.abs(a[0]) && (b = 1);
           Math.abs(a[2]) > Math.abs(a[b]) && (b = 2);
           return b;
         }
-        ;
+
         var O = 4 * 1e+150;
         function P(a, b) {
           a.f += b.f;
@@ -34688,7 +34688,7 @@
           d = na(d, d.a, c);
           c.e = d;
         }
-        ;
+
         function Aa(a) {
           this.a = new Ba();
           this.b = a;
@@ -34701,13 +34701,13 @@
           b.a.c = a;
           return b.a = a;
         }
-        ;
+
         function Ba(a, b, c) {
           this.b = a || null;
           this.a = b || this;
           this.c = c || this;
         }
-        ;
+
         function X() {
           this.d = Y;
           this.p = this.b = this.q = null;
@@ -35055,14 +35055,14 @@
         function V(a, b) {
           a.p && a.p(b, a.c);
         }
-        ;
+
         function ga(a, b) {
           this.b = a || this;
           this.d = b || this;
           this.a = null;
           this.c = !1;
         }
-        ;
+
         function M() {
           this.h = this;
           this.i = this.d = this.a = this.e = this.c = this.b = null;
@@ -35071,7 +35071,7 @@
         function J(a) {
           return a.b.e;
         }
-        ;
+
         function Ca() {
           this.c = new N();
           this.a = new ga();
@@ -35080,7 +35080,7 @@
           this.b.b = this.d;
           this.d.b = this.b;
         }
-        ;
+
         function N(a, b) {
           this.e = a || this;
           this.f = b || this;
@@ -35092,7 +35092,7 @@
           ];
           this.h = this.a = this.b = 0;
         }
-        ;
+
         function Da() {
           this.c = [
           ];
@@ -35138,7 +35138,7 @@
           while (0 < a.a && null === a.c[a.d[a.a - 1]]);
           return b;
         }
-        ;
+
         function Ha() {
           this.d = Ja([0], 33);
           this.e = [
@@ -35205,7 +35205,7 @@
             f = h;
           }
         }
-        ;
+
         function ma() {
           this.e = this.a = null;
           this.f = 0;
@@ -35217,7 +35217,7 @@
         function R(a) {
           return a.e.a.b;
         }
-        ;
+
         this.libtess = {
           GluTesselator: X,
           windingRule: {
@@ -53162,7 +53162,7 @@
 
             this.descriptions.fallback = this.dummyDOM.querySelector('#'.concat(cnvId).concat(fallbackDescId));
             this.descriptions.fallback.innerHTML = text;
-            return;
+
           } else if (type === 'label') {
             //if there is no label container
             if (!this.dummyDOM.querySelector('#'.concat(cnvId + labelContainer))) {
@@ -53182,7 +53182,7 @@
             }
             this.descriptions.label = this.dummyDOM.querySelector('#' + cnvId + labelDescId);
             this.descriptions.label.innerHTML = text;
-            return;
+
           }
         };
         /*
@@ -53232,7 +53232,7 @@
             //update element description
             this.descriptions.fallbackElements[name] = this.dummyDOM.querySelector('#'.concat(cnvId).concat(fallbackTableElId).concat(name));
             this.descriptions.fallbackElements[name].innerHTML = text;
-            return;
+
           } else if (type === 'label') {
             //If display is LABEL creates a div adjacent to the canvas element with
             //a table, a row header cell with the name of the elements,
@@ -53609,7 +53609,7 @@
           _main.default._validateParameters('textOutput', arguments);
           //if textOutput is already true
           if (this._accessibleOutputs.text) {
-            return;
+
           } else {
             //make textOutput true
             this._accessibleOutputs.text = true;
@@ -53742,7 +53742,7 @@
           _main.default._validateParameters('gridOutput', arguments);
           //if gridOutput is already true
           if (this._accessibleOutputs.grid) {
-            return;
+
           } else {
             //make gridOutput true
             this._accessibleOutputs.grid = true;
@@ -101278,12 +101278,12 @@
           var cnv = this._curElement ? this._curElement.elt : this.elt;
           if (args.length === 0) {
             _main.default.prototype.saveCanvas(cnv);
-            return;
+
           } else if (args[0] instanceof _main.default.Renderer || args[0] instanceof _main.default.Graphics) {
             // otherwise, parse the arguments
             // if first param is a p5Graphics, then saveCanvas
             _main.default.prototype.saveCanvas(args[0].elt, args[1], args[2]);
-            return;
+
           } else if (args.length === 1 && typeof args[0] === 'string') {
             // if 1st param is String and only one arg, assume it is canvas filename
             _main.default.prototype.saveCanvas(cnv, args[0]);
@@ -141941,7 +141941,7 @@
                 } else {
                   pInst._glAttributes = Object.assign(defaults, pInst._glAttributes);
                 }
-                return;
+
               }
             },
             {
