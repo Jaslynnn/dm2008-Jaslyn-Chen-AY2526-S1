@@ -1,4 +1,5 @@
 let port; // do not remove or rename
+let serial;
 let serialData;
 let spriteSheet;
 let frameWidth = 64;
@@ -37,7 +38,7 @@ let grainOffsetY = 0;
 let humDiv;
 let tempDiv;
 //Humidity and Temperature variables
-let humidity = 0;
+let humidity = 10;
 let temperature = 0;
 
 function preload() {
@@ -48,7 +49,7 @@ function preload() {
 function setup() {
   // Change this if you want a fixed size canvas
   let cnv = createCanvas(windowWidth, windowHeight);
-    cnv.style('z-index', '10');   // bring it above other elements
+    cnv.style('z-index', '1');   // bring it above other elements
     cnv.style('position', 'absolute');
     cnv.style('top', '0');
     cnv.style('left', '0');
@@ -66,21 +67,25 @@ function setup() {
 
     grainLayer = createGraphics(width, height);
     grainLayer.noStroke();
-
     humDiv = select("#humidityVal");
     tempDiv = select("#temperatureVal");
+
+
 
 }
 
 function draw() {
 
 clear();
+
   // Receive data from Arduino
   if (port.opened()) {
     serialData = port.readUntil("\n");
     // Only log and use data that has information, not empty signals
     if (serialData[0]) {
       console.log(serialData);
+      let val = int(serialData);
+        humDiv.html(serialData);
     }
   }
 
@@ -94,7 +99,9 @@ clear();
     // rect(bounds.left, bounds.top, bounds.right - bounds.left, bounds.bottom - bounds.top);
 
     drawDynamicGrain();
-    humDiv.html(humidity);
+    // drawPixelOverlay(20, 50);
+
+    // humDiv.html(humidity);
     tempDiv.html(temperature);
 
 }
@@ -106,11 +113,11 @@ function drawDynamicGrain() {
     // draw random pixels
     let density = 5000; // number of grains per frame
     for (let i = 0; i < density; i++) {
-        let alpha = random(20, 50);
+        let alpha = random(30, 50);
         grainLayer.fill(random(255), alpha);
         let x = random(width);
         let y = random(height);
-        grainLayer.rect(x, y, 1, 1);
+        grainLayer.rect(x, y, 2, 2);
     }
 
     // shift the layer slightly to create movement
@@ -125,7 +132,7 @@ function connectBtnClicked() {
   if (!port.opened()) {
     // If not already, open the port with baud rate 9600
     // Make sure baud rate here matches settings in Arduino
-    port.open(9600);
+    port.open();
   } else {
     // Otherwise, close the port
     port.close();
@@ -190,7 +197,15 @@ function pickNewDirection() {
     vx = cos(angle) * speed;
     vy = sin(angle) * speed;
 }
-
+function drawPixelOverlay(size = 8, alpha = 20) {
+    noStroke();
+    fill(0, alpha);
+    for (let x = 0; x < width; x += size) {
+        for (let y = 0; y < height; y += size) {
+            rect(x, y, size, size);
+        }
+    }
+}
 function updateAnimation() {
     frameTimer++;
     if (frameTimer >= frameDelay) {
