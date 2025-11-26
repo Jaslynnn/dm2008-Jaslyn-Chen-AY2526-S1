@@ -222,10 +222,128 @@ The game uses a soft **oceanic palette**:
 ---
 
 ### ` 04-final-project `
+
+# 🌱 Plant Feelings
+
+## 📌 Overview
+Plant Feelings is an interactive artwork that visualizes a plant’s emotional state using live input from a soil moisture sensor, inspired by the debate around bonsai ethics.
+
+The plant is represented as a pixel-art character that walks, idles, follows the mouse, reacts to attention, and displays different emotional states based on real humidity levels.
+
+This project combines:
+- p5.js
+- Arduino moisture sensor
+- Pixel animation (Aseprite)
+- UI/Interaction design
+- A conceptual exploration of how humans empathize with plants
+
 <details>
     <summary> 
-    Coming soon
-     </summary>
+    📄 Documentation Click me🥺
+   </summary>
+
+
+---
+
+## 🌿 Concept
+This work is inspired by the ongoing debate surrounding bonsai and the ethics of shaping nature for aesthetics.
+Some argue that shaping and pruning a bonsai is cruel because it forces a plant into an unnatural form.
+
+Yet at the same time, mowing a lawn, trimming hedges, or cutting houseplants is considered normal—even though these also involve cutting and shaping plants.
+This contradiction raises the central question of the project:
+Why do we feel empathy toward some manipulated plants, but not others?
+Plant Feelings exaggerates the idea that plants have emotions in order to highlight this inconsistency.
+
+By giving the plant:
+- A sad animation when under-watered
+- A happy animation when healthy
+- A needy state when ignored
+- Physical reactions to the mouse
+- Pop-up “buddy” characters representing attention or warnings 
+
+the system playfully exposes how easily humans project emotions onto non-human life.
+The work invites viewers to reflect on how cultural narratives — not biology — shape our perception of nature, cruelty, and empathy.
+
+---
+
+## 🛠 Features
+- Live moisture detection using an Arduino and soil humidity sensor
+- A draggable on-screen plant buddy
+- Pixel-art animations drawn and animated using **Aseprite**
+- Visual mood states tied to humidity thresholds
+- Interactive UI with evolving feedback
+- Background music for ambience
+
+---
+
+## 💧 Sensor Data → Plant Emotion Mapping
+The buddy’s expression updates based on real-time humidity levels:
+
+| Humidity Range | Buddy State            |
+|----------------|------------------------|
+| ≤ 20           | Super Thirsty 😭        |
+| 20–40          | Low Water 😢           |
+| 40–80          | Happy 😊               |
+| > 80           | Overwatered 😳         |
+| Timer > 60s    | Needy 😔               |
+
+---
+
+## 🧩 Technical Architecture
+### **Hardware**
+- Arduino board
+- Soil moisture sensor
+- Serial communication to browser
+
+### **Software**
+- JavaScript
+- p5.js (or HTML/JS canvas, depending on implementation)
+- Serial input handling
+- Sprite swapping + pixel animations
+- Drag interaction on mouse events
+
+---
+
+## 🎨 Art & UI Workflow
+All animations and sprite assets were created in **Aseprite**, requiring:
+- Learning pixel animation workflows
+- Designing multiple expression variations
+- Repeatedly redesigning the UI to achieve a clear, readable visual style
+- Iterations to match the mood-system logic with visual pacing
+
+These redesigns were crucial in achieving the final emotional clarity and polished presentation.
+
+---
+
+## 🚧 Challenges
+Some key challenges in the development process included:
+
+### 🎨 Learning Aseprite
+- Understanding pixel animation timing
+- Creating expressive sprites with limited resolution
+- Managing sprite sheets and exporting assets
+
+### 🖼 UI Redesign Iteration
+- Multiple redesign cycles to achieve clarity
+- Balancing cuteness with readability
+- Integrating mood states cleanly into the layout
+
+### 💻 Technical Issues
+- Smoothly parsing serial data from Arduino
+- Ensuring sprite updates flowed without visual stutter
+- Debugging humidity thresholds and condition logic
+- Implementing drag mechanics without interfering with other interactions
+
+---
+
+## 📈 Future Enhancements
+- Additional mood states
+- Sound effects matching emotion
+- Growing / evolving plant character
+- Save data or long-term plant “health”
+- Mobile-friendly version
+
+---
 
 
 
@@ -233,9 +351,8 @@ The game uses a soft **oceanic palette**:
 
 
 
-   </details>
 
-### `README.md`
+</details>
 
 ---
 
