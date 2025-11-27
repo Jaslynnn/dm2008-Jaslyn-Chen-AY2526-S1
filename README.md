@@ -266,8 +266,6 @@ Final Result video in the sensor jam documentation folder.
 ### ` 04-final-project - 🌱 Plant Feelings `
 
 
-
-#### 📌 Overview
 Plant Feelings is an interactive artwork that visualizes a plant’s emotional state using live input from a soil moisture sensor, inspired by the debate around bonsai ethics.
 
 The plant is represented as a pixel-art character that walks, idles, follows the mouse, reacts to attention, and displays different emotional states based on real humidity levels.
@@ -420,13 +418,3 @@ Some key challenges in the development process included:
 | **Week 7** | Recess Week                           | **Mini Project** - Polish and reflection                                       |
 
 ---
-
-
-
----
-
-### 🚀 How to Run
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/Class-Exercises.git
