@@ -95,8 +95,8 @@ This repository contains class exercises, screenshots, recordings and mini proje
 - 📂 `3C-One-function-wonder`
   - 2 Still images
     </br>
-    <image src="./01-activities/Week3/3C-One-function-wonder/WetPaint2.png" width="180" controls></image>
-    <image src="./01-activities/Week3/3C-One-function-wonder/WetPaint3.png" width="180" controls></image>
+    <image src="./01-activities/Week3/3C-One-function-wonder/wetPaint2.png" width="180" controls></image>
+    <image src="./01-activities/Week3/3C-One-function-wonder/wetPaint3.png" width="180" controls></image>
   - 1 Screen Recordings
 
     </details>
@@ -110,8 +110,9 @@ This repository contains class exercises, screenshots, recordings and mini proje
 
 - 📂 `4A-Bake-A-Cookie`
     - 1 Screen Recordings
-</br>
+    </br>
     <image src="./01-activities/Week4/4A-Bake-A-Cookie/CookiesPic.png" width="180" controls></image>
+
 - 📂 `4B-Objects-In-Motion`
     - 1 Screen Recordings
     </br>
@@ -129,7 +130,7 @@ This repository contains class exercises, screenshots, recordings and mini proje
 
 - 📂 `5A-Colliding-Circles`
     - 1 Screen Recordings
-    </br>
+      </br>
       <image src="./01-activities/Week5/5A-Colliding-Circles/LilVirusThumbnail.png" width="180" controls></image>
 - 📂 `Mini-Project-Start`
     
@@ -153,14 +154,8 @@ This repository contains class exercises, screenshots, recordings and mini proje
 - 📂 `Input exercise`
      </br>
       <image src="./01-activities/Week10/PrettyUIThumbnail.png" width="180" controls></image>
-- 
 
-
----
-   </details>
-
-
-
+  
   </details>
 
 ---
@@ -234,6 +229,9 @@ The game uses a soft **oceanic palette**:
 | Pipes            | Seaweed Green              | `rgba(129, 199, 132, 1)`   |
 | Bubbles          | Light Blue (varying alpha) | `rgba(200, 230, 255, 0.5)` |
 
+### Reflection
+
+I think that I worked very much on the polish and user experience of the game, focusing on small details like the bubble trail and death animation to make the game feel more alive and engaging, creating the game juice of the game. It gave me a good opportunity to learn more about coding graphics and work on something that I was very much interested in, interaction design, instead of purely trying to just build something that works. It was fun.
 
 
 
@@ -393,7 +391,8 @@ Some key challenges in the development process included:
 <image src="./04-final-project/plantFeelings/documentation/Doc3Code.png"  ></image>
 <image src="./04-final-project/plantFeelings/documentation/Doc4Presentation.png"  ></image>
 ---
-
+#### Reflection
+Creating Plant Feelings was a challenging but rewarding experience that pushed me to learn new skills in p5.js, pixel art and interactive coding. The project allowed me to explore a interesting concept around empathy for plants while honing my creative abilities. It was satisfying to see the plant character come to life with emotions tied to real sensor data, and I learned a lot about balancing art, interaction, and code. In the future, I would like to expand the project with more features and polish, but I am proud of what I accomplished within the time constraints. I look forward to working on this into the future and on my plant at home.
 
 
 
@@ -405,7 +404,7 @@ Some key challenges in the development process included:
 
 ---
 
-## `📅 Classwork Content Overview`
+## `📅 Reflection`
 
 | Week       | Focus                                 | Activities                                                                     |
 |------------|---------------------------------------|--------------------------------------------------------------------------------|
