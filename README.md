@@ -63,6 +63,10 @@ This repository contains class exercises, screenshots, recordings and mini proje
 - 1 Screen Recordings
 - 📂 `2B-Pattern-Making`
     - 3 Still images
+    </br>
+  <image src="./01-activities/Week2/2B-Pattern-Making/websScreenshot1.png" width="180" controls></image>
+  <image src="./01-activities/Week2/2B-Pattern-Making/websScreenshot2.png" width="180" controls></image>
+  <image src="./01-activities/Week2/2B-Pattern-Making/websScreenshot3.png" width="180" controls></image>
     - 1 Screen Recordings`
 
 
@@ -80,11 +84,20 @@ This repository contains class exercises, screenshots, recordings and mini proje
 
 - 📂 `3A-Array-Sampler`
    - 1 Screen Recordings
+    </br>
+<image src="./01-activities/Week3/3A-Array-Sampler/nameList.png" width="180" controls></image>
 - 📂 `3B-One-function-wonder`
   - 3 Still images
+    </br>
+    <image src="./01-activities/Week3/3B-One-function-wonder/paintBrush1.png" width="180" controls></image>
+  <image src="./01-activities/Week3/3B-One-function-wonder/paintBrush2.png" width="180" controls></image>
+  <image src="./01-activities/Week3/3B-One-function-wonder/paintBrush3.png" width="180" controls></image>
 - 📂 `3C-One-function-wonder`
   - 2 Still images
-  - 1 Screen Recordings`
+    </br>
+    <image src="./01-activities/Week3/3C-One-function-wonder/WetPaint2.png" width="180" controls></image>
+    <image src="./01-activities/Week3/3C-One-function-wonder/WetPaint3.png" width="180" controls></image>
+  - 1 Screen Recordings
 
     </details>
 
@@ -97,8 +110,12 @@ This repository contains class exercises, screenshots, recordings and mini proje
 
 - 📂 `4A-Bake-A-Cookie`
     - 1 Screen Recordings
+</br>
+    <image src="./01-activities/Week4/4A-Bake-A-Cookie/CookiesPic.png" width="180" controls></image>
 - 📂 `4B-Objects-In-Motion`
     - 1 Screen Recordings
+    </br>
+      <image src="./01-activities/Week4/4B-Objects-In-Motion/MovingObjectsThumbnail.png" width="180" controls></image>
 
 ---
 </details>
@@ -112,19 +129,36 @@ This repository contains class exercises, screenshots, recordings and mini proje
 
 - 📂 `5A-Colliding-Circles`
     - 1 Screen Recordings
+    </br>
+      <image src="./01-activities/Week5/5A-Colliding-Circles/LilVirusThumbnail.png" width="180" controls></image>
 - 📂 `Mini-Project-Start`
     
 
 ---
    </details>
 
-Each activity folder also has a code folder that contains:
+   <details>
 
-- `index.html` — entry point for the exercise
-- `sketch.js` — main p5.js script
-- `assets/` — fonts, images, and sound files (if any)
-- `README.md` — exercise-specific notes
-- and other supporting files
+   <summary> 
+   📂 Week 9/10
+
+   </summary>
+
+- 📂 `Arduino Exercises`
+    - 3 Screenshots
+      </br>
+  <image src="./01-activities/Week9/ArduinoExercise1.jpg" width="180" controls></image>
+  <image src="./01-activities/Week9/ArduinoExercise2.jpg" width="180" controls ></image>
+  <image src="./01-activities/Week9/ArduinoExercise3.jpg" width="180" controls ></image>
+- 📂 `Input exercise`
+     </br>
+      <image src="./01-activities/Week10/PrettyUIThumbnail.png" width="180" controls></image>
+- 
+
+
+---
+   </details>
+
 
 
   </details>
@@ -164,7 +198,6 @@ Players control a small fish that flaps through underwater pipes, avoiding obsta
 
 #### Week 5 — First Prototype
 - Worked on provided guided code to make main mechanics work.
-  <video src="assets/progress/week3-prototype.mp4" width="480" controls></video>
 
 #### Week 6 — Consultation and Polish
 
@@ -185,6 +218,9 @@ Players control a small fish that flaps through underwater pipes, avoiding obsta
 - Introduced bubble particle effects and flipped death animation.
 
 ---
+#### 🧩 Progress Documentation
+<image src="./02-mini-project/Documentation/FnalFlappyDocImg.png"  ></image>
+Progress and final video in the documentation folder.
 
 ### 🎨 Visual Design
 
@@ -205,11 +241,17 @@ The game uses a soft **oceanic palette**:
 </details>
 
 ---
-### ` 03-sensor-jam `
+### ` 03-sensor-jam - little Virus `
+
+Little virus is an interactive p5.js sketch that uses live ultrasonic distance input from an Arduino ultrasonic sensor to control the infection rate of ball color by affecting the size and velocity of the balls on the screen.
 <details>
  <summary> 
- Coming soon
+ 📄 Documentation Click me🥺
 </summary>
+### Progress pictures
+<image src="./03-sensor-jam/Documentation/SensorJamDocumentation.png"  ></image>
+Final Result video in the sensor jam documentation folder.
+
 
 
 
@@ -221,18 +263,18 @@ The game uses a soft **oceanic palette**:
 
 ---
 
-### ` 04-final-project `
+### ` 04-final-project - 🌱 Plant Feelings `
 
-# 🌱 Plant Feelings
 
-## 📌 Overview
+
+#### 📌 Overview
 Plant Feelings is an interactive artwork that visualizes a plant’s emotional state using live input from a soil moisture sensor, inspired by the debate around bonsai ethics.
 
 The plant is represented as a pixel-art character that walks, idles, follows the mouse, reacts to attention, and displays different emotional states based on real humidity levels.
 
 This project combines:
 - p5.js
-- Arduino moisture sensor
+- Arduino moisture sensor(capacitive soil moisture sensor())
 - Pixel animation (Aseprite)
 - UI/Interaction design
 - A conceptual exploration of how humans empathize with plants
@@ -245,7 +287,7 @@ This project combines:
 
 ---
 
-## 🌿 Concept
+#### 🌿 Concept
 This work is inspired by the ongoing debate surrounding bonsai and the ethics of shaping nature for aesthetics.
 Some argue that shaping and pruning a bonsai is cruel because it forces a plant into an unnatural form.
 
@@ -255,94 +297,103 @@ Why do we feel empathy toward some manipulated plants, but not others?
 Plant Feelings exaggerates the idea that plants have emotions in order to highlight this inconsistency.
 
 By giving the plant:
-- A sad animation when under-watered
+- A sad animation when under-watered/ignored
 - A happy animation when healthy
-- A needy state when ignored
 - Physical reactions to the mouse
-- Pop-up “buddy” characters representing attention or warnings 
+- Pop-up “feeling windows” representing attention or warnings 
 
 the system playfully exposes how easily humans project emotions onto non-human life.
-The work invites viewers to reflect on how cultural narratives — not biology — shape our perception of nature, cruelty, and empathy.
+The work invites viewers to reflect on how cultural narratives but not biology shape our perception of nature, cruelty, and empathy.
 
 ---
 
-## 🛠 Features
+#### ✨ Features
 - Live moisture detection using an Arduino and soil humidity sensor
-- A draggable on-screen plant buddy
+- A draggable on-screen plant feeling window
 - Pixel-art animations drawn and animated using **Aseprite**
 - Visual mood states tied to humidity thresholds
 - Interactive UI with evolving feedback
-- Background music for ambience
 
 ---
 
-## 💧 Sensor Data → Plant Emotion Mapping
-The buddy’s expression updates based on real-time humidity levels:
+#### 💧 Sensor Data → Plant Emotion Mapping
+The plantFeeling window expression updates based on real-time humidity levels:
 
-| Humidity Range | Buddy State            |
-|----------------|------------------------|
-| ≤ 20           | Super Thirsty 😭        |
-| 20–40          | Low Water 😢           |
-| 40–80          | Happy 😊               |
-| > 80           | Overwatered 😳         |
-| Timer > 60s    | Needy 😔               |
+| Humidity Range | Plant / feeling window State |
+|----------------|------------------------------|
+| ≤ 20           | Super Thirsty 😭             |
+| 20–40          | Low Water 😢                 |
+| 40–80          | Happy 😊                     |
+| > 80           | Overwatered 😳               |
+| Timer > 60s    | Needy 😔                     |
 
 ---
 
-## 🧩 Technical Architecture
-### **Hardware**
+#### 🧩 Technical Architecture
+ **Hardware**
 - Arduino board
 - Soil moisture sensor
 - Serial communication to browser
 
-### **Software**
+**Software**
+- Penpot (for UI mockups and html/css prototyping/code)(don't look at the code its a mess thanks🙏)
 - JavaScript
-- p5.js (or HTML/JS canvas, depending on implementation)
+- p5.js (or HTML/JS canvas)
 - Serial input handling
 - Sprite swapping + pixel animations
 - Drag interaction on mouse events
 
 ---
 
-## 🎨 Art & UI Workflow
+#### 🎨 Art & UI Workflow
 All animations and sprite assets were created in **Aseprite**, requiring:
 - Learning pixel animation workflows
 - Designing multiple expression variations
+Th UI was created in Penpot, requiring:
+- Learning Penpot for UI design
+- Understanding of how penpot created code from UI prototypes to create efficient code prototyping( work smart not hard )
 - Repeatedly redesigning the UI to achieve a clear, readable visual style
 - Iterations to match the mood-system logic with visual pacing
 
-These redesigns were crucial in achieving the final emotional clarity and polished presentation.
+These redesigns were crucial in achieving the final emotional aestetics to project clarity and polished presentation.
 
 ---
 
-## 🚧 Challenges
+#### 🚧 Challenges
 Some key challenges in the development process included:
 
-### 🎨 Learning Aseprite
+ **🎨 Learning Aseprite**
+- Learning pixel art techniques from scratch
 - Understanding pixel animation timing
 - Creating expressive sprites with limited resolution
 - Managing sprite sheets and exporting assets
 
-### 🖼 UI Redesign Iteration
-- Multiple redesign cycles to achieve clarity
-- Balancing cuteness with readability
-- Integrating mood states cleanly into the layout
+**🖼 UI Redesign Iteration**
+- Learning Penpot for UI prototyping from scratch
+- Multiple redesign cycles to achieve the "Vibe"
+- easy integration of code with UI made me indecisive and overthink design choices instead of working on the p5.js code
 
-### 💻 Technical Issues
-- Smoothly parsing serial data from Arduino
+
+#### 💻 Technical Issues
 - Ensuring sprite updates flowed without visual stutter
-- Debugging humidity thresholds and condition logic
+- Linking the temperature sensor with arduino leading to eventually giving up on that
+- Debugging humidity thresholds and condition logic to make it cleaner
 - Implementing drag mechanics without interfering with other interactions
 
 ---
 
-## 📈 Future Enhancements
+#### 📈 Future Enhancements
 - Additional mood states
 - Sound effects matching emotion
 - Growing / evolving plant character
-- Save data or long-term plant “health”
+- Save data or long-term plant “health” with a graph
 - Mobile-friendly version
 
+#### Progress shots / Videos
+<image src="./04-final-project/plantFeelings/documentation/Doc1Concept.png"  ></image>
+<image src="./04-final-project/plantFeelings/documentation/Doc2Art.png"  ></image>
+<image src="./04-final-project/plantFeelings/documentation/Doc3Code.png"  ></image>
+<image src="./04-final-project/plantFeelings/documentation/Doc4Presentation.png"  ></image>
 ---
 
 
